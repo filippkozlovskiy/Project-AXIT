@@ -1,0 +1,36 @@
+.header {
+    max-width: 1510px;
+    height: 75px;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header--inner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--logo {
+    position: relative;
+    left: 55px;
+}
+
+.header--link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.header--navigation > a:not(:last-child) {
+    margin: 0 24px 0 0;
+}
