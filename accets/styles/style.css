@@ -1,5 +1,7 @@
 @import url(/accets/styles/header.css);
 @import url(/accets/styles/banner.css);
+@import url(/accets/styles/social.css);
+@import url(/accets/styles/tabs.css);
 
 * {
     margin: 0;
