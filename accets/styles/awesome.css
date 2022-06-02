@@ -1,0 +1,71 @@
+.awesome {
+    margin: 50px 0 58px;
+}
+
+.awesome--title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-align: center;
+    padding: calc((150px - 42px) / 2) 0px;
+}
+
+.awesome--line {
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    border: none;
+    margin: 0 auto;
+}
+
+.awesome--subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin: 40px 0px 0px;
+}
+
+.awesome--cards {
+    margin: 71px auto;
+}
+
+.awesome--card {
+    max-width: 370px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+svg {
+    display: inline-block;
+}
+
+.awesome--card-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    padding: calc((100px - 33px) / 2);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.awesome--card-description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+    margin: 8px 0;
+}
