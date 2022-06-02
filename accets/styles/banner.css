@@ -1,0 +1,139 @@
+.banner {
+    min-height: 1026px;
+    background-image: url(/accets/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative
+}
+
+.banner--bg--dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.banner--inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner--logo {
+    margin: 208px 0 0;
+}
+
+.banner--title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    max-width: 670px;
+    margin: 72.88px 0 0;
+}
+
+.banner--line {
+    width: 170px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 55.12px 0 0;
+}
+
+.banner--description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    max-width: 270px;
+    margin: 42px 0 0;
+}
+
+.banner--button {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    width: 270px;
+    height: 58px;
+    margin: 42px 0 0;
+}
+
+.banner--button--link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.banner--form--inner {
+    width: 470px;
+    max-height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 208px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner--form--title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    padding: 28.5px 0;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner--form--title > span {
+    color: #EC7979;
+}
+
+.banner--form--input > input {
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 0 0 16px;
+}
+
+input::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.banner--form--input :first-child {
+    margin: 33px 0 0;
+}
+
+.banner--form--btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    width: 470px;
+    height: 60px;
+    border: none;
+    margin: 75px 0 0;
+}
